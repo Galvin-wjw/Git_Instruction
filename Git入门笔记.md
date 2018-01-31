@@ -1,6 +1,6 @@
 ﻿# Git入门笔记
 
-标签（空格分隔）： 版本控制工具
+标签： 版本控制工具
 
 ---
 ## Git介绍
@@ -140,6 +140,8 @@ $ git remote add origin https://github.com/username/repositoryname.git
 $ git push -u origin master
 ```
 `-u` 表示第一次推送master分支的所有内容，此后，每次本地提交后，只要有必要，就可以使用命令`git push origin master`推送最新修改。
+
+#### 遇到推送认证的无法通过的问题；有可能是开启了github二次验证；需要将二次验证关闭再进行推送
 
 #### 从远程克隆
 ```bash
